@@ -1,0 +1,4 @@
+mitmproxy==10.4.2
+Pillow==9.4.0
+pycryptodome==3.20.0
+pystray==0.19.5
