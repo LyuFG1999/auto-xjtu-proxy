@@ -11,15 +11,15 @@
 
 ### 2. JavaScript-Tampermonkey (非核心脚本)
 
-在Tampermonkey中，安装[JavaScript文件夹](https://gitee.com/LyuFG1999/auto-xjtu-proxy/tree/master/JavaScript)下的两个脚本。
+在Tampermonkey中，安装[JavaScript文件夹](https://github.com/LyuFG1999/auto-xjtu-proxy/tree/master/JavaScript)下的两个脚本。
 
-#### 2.1 [Auto Click Login for XJTU WebVPN](https://gitee.com/LyuFG1999/auto-xjtu-proxy/blob/master/JavaScript/Auto%20Click%20Login%20for%20XJTU%20WebVPN-1.0.user.js)
+#### 2.1 [Auto Click Login for XJTU WebVPN](https://github.com/LyuFG1999/auto-xjtu-proxy/blob/master/JavaScript/Auto%20Click%20Login%20for%20XJTU%20WebVPN-1.0.user.js)
 
 - Auto Click Login for XJTU WebVPN 用于自动点击网页的登录按钮，以便进行后续登录操作。
 - 适用网址：[https://webvpn.xjtu.edu.cn/login](https://webvpn.xjtu.edu.cn/login)
 - 该脚本不需要修改，直接使用
 
-#### 2.2 [Auto Login for XJTU WebVPN](https://gitee.com/LyuFG1999/auto-xjtu-proxy/blob/master/JavaScript/Auto%20Login%20for%20XJTU%20WebVPN-1.2.user.js)
+#### 2.2 [Auto Login for XJTU WebVPN](https://github.com/LyuFG1999/auto-xjtu-proxy/blob/master/JavaScript/Auto%20Login%20for%20XJTU%20WebVPN-1.2.user.js)
 
 - Auto Login for XJTU WebVPN 用于自动填写账号和密码，并自动点击登录按钮，实现登录操作。
 - 适用网址：https://webvpn.xjtu.edu.cn/http*/*/openplatform/login.html; https://org.xjtu.edu.cn/*/login.html
@@ -28,15 +28,15 @@
 ### 3.PythonScript-VBScript
 
 #### 3.1 下载
-下载[PythonScript](https://gitee.com/LyuFG1999/auto-xjtu-proxy/tree/master/PythonScript)和[VBScript](https://gitee.com/LyuFG1999/auto-xjtu-proxy/tree/master/VBScript)的所有文件置于同一文件夹下。
+下载[PythonScript](https://github.com/LyuFG1999/auto-xjtu-proxy/tree/master/PythonScript)和[VBScript](https://github.com/LyuFG1999/auto-xjtu-proxy/tree/master/VBScript)的所有文件置于同一文件夹下。
 
 文件说明如下：
 
-- [PythonScript/direct_port.py](https://gitee.com/LyuFG1999/auto-xjtu-proxy/blob/master/PythonScript/direct_port.py)开启端口127.0.0.1:12380（端口可在脚本中修改），该端口不对流量进行任何修改。
-- [PythonScript/proxy_port.py](https://gitee.com/LyuFG1999/auto-xjtu-proxy/blob/master/PythonScript/proxy_port.py)开启端口127.0.0.1:12380（端口可在脚本中修改），端口对浏览器返回重定向网页信息，返回的网页是原网页对应的WEBVPN网址。
-- [PythonScript/run.py](https://gitee.com/LyuFG1999/auto-xjtu-proxy/blob/master/PythonScript/run.py)调用direct_port.py和proxy_port.py，并实现了脚本的托盘运行，对应的托盘图标为direct.png/proxy.png
-- [PythonScript/requirements.txt](https://gitee.com/LyuFG1999/auto-xjtu-proxy/blob/master/PythonScript/requirements.txt)为运行Python脚本需要的库。
-- [VBScript/WebVPN.vbs](https://gitee.com/LyuFG1999/auto-xjtu-proxy/blob/master/VBScript/WebVPN.vbs)可以在Windows环境下无窗口运行run.py，实现静默运行（不显示CMD窗口）。
+- [PythonScript/direct_port.py](https://github.com/LyuFG1999/auto-xjtu-proxy/blob/master/PythonScript/direct_port.py)开启端口127.0.0.1:12380（端口可在脚本中修改），该端口不对流量进行任何修改。
+- [PythonScript/proxy_port.py](https://github.com/LyuFG1999/auto-xjtu-proxy/blob/master/PythonScript/proxy_port.py)开启端口127.0.0.1:12380（端口可在脚本中修改），端口对浏览器返回重定向网页信息，返回的网页是原网页对应的WEBVPN网址。
+- [PythonScript/run.py](https://github.com/LyuFG1999/auto-xjtu-proxy/blob/master/PythonScript/run.py)调用direct_port.py和proxy_port.py，并实现了脚本的托盘运行，对应的托盘图标为direct.png/proxy.png
+- [PythonScript/requirements.txt](https://github.com/LyuFG1999/auto-xjtu-proxy/blob/master/PythonScript/requirements.txt)为运行Python脚本需要的库。
+- [VBScript/WebVPN.vbs](https://github.com/LyuFG1999/auto-xjtu-proxy/blob/master/VBScript/WebVPN.vbs)可以在Windows环境下无窗口运行run.py，实现静默运行（不显示CMD窗口）。
 
 #### 3.2 安装库
 
