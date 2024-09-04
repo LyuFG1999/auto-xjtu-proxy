@@ -13,8 +13,8 @@
     'use strict';
 
     // Define your username and password here
-    var username = "412XXX0000";
-    var password = "password";
+    var username = "学号";
+    var password = "密码";
 
     // Wait for the DOM to be fully loaded
     window.addEventListener('load', function() {
